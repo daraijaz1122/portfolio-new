@@ -1,22 +1,12 @@
 "use client"
 import { motion } from 'framer-motion';
+import data from "../data/data.json";
 
-const experiences = [
-  {
-    title: 'Frontend Developer',
-    company: 'Tech Corp',
-    period: '2023 - Present',
-    description: 'Developed user interfaces using React and TypeScript.',
-  },
-  {
-    title: 'Junior Developer',
-    company: 'StartUp Inc',
-    period: '2021 - 2023',
-    description: 'Assisted in building web applications and fixing bugs.',
-  },
-];
 
 export default function Experience() {
+ 
+  const { experience } = data;
+  const finalExpData = experience[0];
   return (
     <section id="experience" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,19 +19,19 @@ export default function Experience() {
           Work Experience
         </motion.h2>
         <div className="space-y-8">
-          {experiences.map((exp, index) => (
+          
             <motion.div
-              key={index}
+              
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.5,  }}
               className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
             >
-              <h3 className="text-xl font-semibold">{exp.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{exp.company} | {exp.period}</p>
-              <p className="text-gray-500 dark:text-gray-400 mt-2">{exp.description}</p>
+              <h3 className="text-xl font-semibold">{finalExpData.role}</h3>
+              <p className="text-gray-600 dark:text-gray-300">{finalExpData.company} | {finalExpData.duration}</p>
+              <p className="text-gray-500 dark:text-gray-400 mt-2">{finalExpData.description}</p>
             </motion.div>
-          ))}
+         
         </div>
       </div>
     </section>

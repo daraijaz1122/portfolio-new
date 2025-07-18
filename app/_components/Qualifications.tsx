@@ -1,6 +1,6 @@
 "use client"
 import { motion } from 'framer-motion';
-
+import data from "../data/data.json";
 const qualifications = [
   {
     degree: 'Bachelor of Science in Computer Science',
@@ -15,6 +15,7 @@ const qualifications = [
 ];
 
 export default function Qualifications() {
+  const qualifications = data.education
   return (
     <section id="qualifications" className="py-20 bg-gray-200 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +37,7 @@ export default function Qualifications() {
               className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
             >
               <h3 className="text-xl font-semibold">{qual.degree}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{qual.institution} | {qual.year}</p>
+              <p className="text-gray-600 dark:text-gray-300">{qual.institution} | {qual.from} - {qual.to}</p>
             </motion.div>
           ))}
         </div>

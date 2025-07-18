@@ -1,12 +1,10 @@
 "use client"
 import { motion } from 'framer-motion';
+import data from '@/app/data/data.json';
 
-const skills = [
-  'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS',
-  'Node.js', 'MongoDB', 'PostgreSQL', 'Git', 'Docker',
-];
 
 export default function Skills() {
+  const skills = data.skills;
   return (
     <section id="skills" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
