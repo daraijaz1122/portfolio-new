@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit} from "next/font/google";
 import "./globals.css";
-import { AiOutlineFileImage } from "react-icons/ai";
 
 const outfit = Outfit({
   subsets: ["latin"],

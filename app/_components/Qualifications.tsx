@@ -1,18 +1,7 @@
 "use client"
 import { motion } from 'framer-motion';
 import data from "../data/data.json";
-const qualifications = [
-  {
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of Example',
-    year: '2017 - 2021',
-  },
-  {
-    degree: 'Web Development Bootcamp',
-    institution: 'Tech Academy',
-    year: '2020',
-  },
-];
+
 
 export default function Qualifications() {
   const qualifications = data.education
