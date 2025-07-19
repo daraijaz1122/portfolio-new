@@ -17,7 +17,7 @@ const qualifications = [
 export default function Qualifications() {
   const qualifications = data.education
   return (
-    <section id="qualifications" className="py-20 bg-gray-200 dark:bg-gray-800">
+    <section id="education" className="py-20 bg-gray-200 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ export default function Qualifications() {
           transition={{ duration: 0.8 }}
           className="text-4xl font-bold text-center mb-12"
         >
-          Qualifications
+          Education
         </motion.h2>
         <div className="space-y-8">
           {qualifications.map((qual, index) => (

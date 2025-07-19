@@ -38,11 +38,22 @@
   ],
   "experience": [
     {
-      "role": "Full Stack Developer",
-"description": "1. Developed a network scanning and monitoring tool designed to efficiently manage and oversee a large-scale network comprising over 10,000 devices, including switches, cameras, routers, UPS units, and radio frequency equipment.\nThe tool is also capable of generating comprehensive reports for devices, including details on uptime, downtime, and log history.\nThe tool can also automatically create issues for down devices, manage issue assignments and resolutions, and generate detailed issue logs.\nTargeted to be used by Network Engineers and IT staff.\nTechnologies used: javascript, nextjs, python, fastapi, sqlite, material UI.\n2. Developed visitor management system for Delhi Sachivalay from scratch.\nSystem includes modules for guards, receptionists, administrators, and complaint officers.\nImplemented QR code system for visitor entry logging.\nHandles a weekly footfall of over 1000 visitors, ensuring smooth operations and heightened security measures.\nTechnologies used: Javascript, Reactjs, Nestjs, Postgresql, tailwindcss.",
-      "company": "Elkosta Security Systems Inda",
+      "role": "Associate Software Engineer",
+"description": "1. Network Monitoring and Scanning System.\n Developed a network scanning and monitoring tool designed to efficiently manage and oversee a large-scale network comprising over 10,000 devices, including switches, cameras, routers, UPS units, and radio frequency equipment.\nThe tool is also capable of generating comprehensive reports for devices, including details on uptime, downtime, and log history.\nThe tool can also automatically create issues for down devices, manage issue assignments and resolutions, and generate detailed issue logs.\nTargeted to be used by Network Engineers and IT staff.\nTechnologies used: javascript, nextjs, python, fastapi, sqlite, material UI.\n2. Visitor Management System.\n Developed visitor management system for Delhi Secretariat from scratch.\nSystem includes modules for guards, receptionists, administrators, and complaint officers.\nImplemented QR code system for visitor entry logging.\nHandles a weekly footfall of over 1000 visitors, ensuring smooth operations and heightened security measures.\nTechnologies used: Javascript, Reactjs, Nestjs, Postgresql, tailwindcss.",
+      "company": "Elkosta Security Systems India",
       "duration": "05-2023 to 09-2024"
     }
   ],
-  "skills": ["Next.js", "React", "Node.js","Typescript","HTML","CSS","Javascript","SQL", "PostgreSQL","TailwindCSS","Express","Git","Postman","MongoDB","PrismaORM","TypeORM","DrizzleORM","Nestjs","Docker"]
+  "skills": ["Next.js", "React", "Node.js","Typescript","HTML","CSS","Javascript","SQL", "PostgreSQL","TailwindCSS","Express","Git","Postman","MongoDB","PrismaORM","TypeORM","DrizzleORM","Nestjs","Docker"],
+  "courses ":[
+    {
+      "title":"100xDevs, 0-100 Fullstack Web Development",
+      "description":"Developing backend applications using Node.js, TypeScript, Hono.js, MongoDB, and PostgreSQL.\nProficient in working with Object-Relational Mapping (ORM) tools like Prisma and TypeORM.\nDeploying backend services to serverless functions.\nDeploying frontend applications to AWS,vercel,firebase etc.\nBuilding full-stack web applications using Next.js.\nImplementing authentication mechanisms using JWTs, NextAuth,clerk, and cookies.\n Utilizing various bundlers, including Vite, Parcel etc.\nManaging monorepos effectively with Turborepo.\nProficient in containerizing applications with Docker.",
+      "certificate":"Fullstack"
+    },{
+      "title":"NamasteDev,Frontend Web Development ",
+      "description":"Developing Frontend's  using Reactjs.\nIntroduction to foundational tools and frameworks in web development.\n Dived deep into essential package managers and module bundlers for React projects.\n Understood JSX, React components, and their compositions.\n Implemented React's core features, managing state, and working with UI data.\n Mastered working with React hooks and understanding their importance.\nMastered working with Reat Router for smooth navigation and routing.\nClass based components and their lifecycles.\n Advance optimization techniques including Custom Hooks.\nImplementing Redux toolkit for state management.",
+      "certificate":"React"
+    }
+  ]
 }

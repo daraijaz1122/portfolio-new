@@ -27,9 +27,15 @@ export default function Experience() {
               transition={{ duration: 0.5,  }}
               className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
             >
-              <h3 className="text-xl font-semibold">{finalExpData.role}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{finalExpData.company} | {finalExpData.duration}</p>
-              <p className="text-gray-500 dark:text-gray-400 mt-2">{finalExpData.description}</p>
+              <h3 className="text-2xl font-bold text-gray-600 dark:text-gray-300">{finalExpData.role}</h3>
+              <p className="text-gray-600 text-xl font-semibold dark:text-gray-300">{finalExpData.company} | {finalExpData.duration}</p>
+           
+            <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300 space-y-2">
+              {finalExpData.description.split('\n').map((line, i) => (
+                line.startsWith('1.') || line.startsWith('2.') ? (<p key={i} className='text-lg  text-gray-600 dark:text-gray-300 font-semibold'>{ line}</p>):
+                <li className='text-lg' key={i}>{line}</li>
+                ))}
+              </ul>
             </motion.div>
          
         </div>

@@ -22,7 +22,8 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             <Link href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Projects</Link>
             <Link href="#experience" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Experience</Link>
-            <Link href="#qualifications" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Qualifications</Link>
+            <Link href="#education" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Education</Link>
+            <Link href="#courses" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Courses</Link>
             <Link href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">Skills</Link>
             <button
               onClick={toggleDarkMode}
