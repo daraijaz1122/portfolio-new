@@ -2,12 +2,13 @@
 import { motion } from "framer-motion";
 import data from "../data/data.json";
 import Link from "next/link";
+import { CourseDescription } from "./CourseDescription";
 
 export default function Courses() {
   const devCourses = data["courses "]
 
   return (
-    <section id="courses" className="py-20 bg-gray-200 dark:bg-gray-800">
+    <section id="courses" className="py-20 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0 }}
@@ -28,14 +29,10 @@ export default function Courses() {
             >
               <h3 className="text-xl font-bold mb-2 text-gray-700 dark:text-gray-300">{course.title}</h3>
                 
+              <CourseDescription description={course.description} key={ course.title} />
                   
-                  {
-                      course.description.split('\n').map((line, i) => (
-                          <li className='text-lg text-gray-700 dark:text-gray-300' key={i}>{line}</li>
-                      ))
-                  }
                   
-                  <Link className="text-blue-700 dark:text-gray-300 underline p-4 hover:text-blue-400 font-bold text-lg" href={course.certificate==="Fullstack"?"/fullstack.png":"/react.webp"}> Certificate</Link>
+                  <Link className="text-blue-600  underline  hover:text-blue-400  text-lg" href={course.certificate==="Fullstack"?"/fullstack.png":"/react.webp"}>View Certificate</Link>
               
             </motion.div>
           ))}

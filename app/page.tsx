@@ -8,6 +8,7 @@ import Skills from "./_components/Skills";
 import Footer from "./_components/Footer";
 import './globals.css';
 import Courses from "./_components/Courses";
+import Contact from "./_components/Contact";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300" >
@@ -18,6 +19,7 @@ export default function Home() {
       <Qualifications />
       <Courses/>
       <Skills />
+      <Contact/>
       <Footer/>
     </div>
   );

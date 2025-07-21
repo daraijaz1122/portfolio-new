@@ -55,5 +55,9 @@
       "description":"Developing Frontend's  using Reactjs.\nIntroduction to foundational tools and frameworks in web development.\n Dived deep into essential package managers and module bundlers for React projects.\n Understood JSX, React components, and their compositions.\n Implemented React's core features, managing state, and working with UI data.\n Mastered working with React hooks and understanding their importance.\nMastered working with Reat Router for smooth navigation and routing.\nClass based components and their lifecycles.\n Advance optimization techniques including Custom Hooks.\nImplementing Redux toolkit for state management.",
       "certificate":"React"
     }
-  ]
+  ],
+   "contact": {
+    "email": "aijazd.119@gmail.com",
+    "linkedin": "https://linkedin.com/in/aijaz-ahmadd"
+  }
 }
