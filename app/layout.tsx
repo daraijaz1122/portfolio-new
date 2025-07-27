@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit} from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import { Analytics } from "@vercel/analytics/next";
@@ -10,7 +10,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "aijaz-portfolio",
-  description: "",
+  description: " this is a portfolio wesite ",
 };
 
 export default function RootLayout({
@@ -20,11 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      className={outfit.className}
-      >
+      <body className={outfit.className}>
         <ToastContainer />
+
         {children}
+        <Analytics />
       </body>
     </html>
   );
