@@ -47,12 +47,14 @@
   "skills": ["Next.js", "React", "Node.js","Typescript","HTML","CSS","Javascript","SQL", "PostgreSQL","TailwindCSS","Express","Git","Postman","MongoDB","PrismaORM","TypeORM","DrizzleORM","Nestjs","Docker"],
   "courses ":[
     {
+      "courseId":"1",
       "title":"100xDevs, 0-100 Fullstack Web Development",
       "description":"Developing backend applications using Node.js, TypeScript, Hono.js, MongoDB, and PostgreSQL.\nProficient in working with Object-Relational Mapping (ORM) tools like Prisma and TypeORM.\nDeploying backend services to serverless functions.\nDeploying frontend applications to AWS,vercel,firebase etc.\nBuilding full-stack web applications using Next.js.\nImplementing authentication mechanisms using JWTs, NextAuth,clerk, and cookies.\n Utilizing various bundlers, including Vite, Parcel etc.\nManaging monorepos effectively with Turborepo.\nProficient in containerizing applications with Docker.",
       "certificate":"Fullstack"
     },{
+      "courseId":"2",
       "title":"NamasteDev,Frontend Web Development ",
-      "description":"Developing Frontend's  using Reactjs.\nIntroduction to foundational tools and frameworks in web development.\n Dived deep into essential package managers and module bundlers for React projects.\n Understood JSX, React components, and their compositions.\n Implemented React's core features, managing state, and working with UI data.\n Mastered working with React hooks and understanding their importance.\nMastered working with Reat Router for smooth navigation and routing.\nClass based components and their lifecycles.\n Advance optimization techniques including Custom Hooks.\nImplementing Redux toolkit for state management.",
+      "description":"Developing Frontend's  using Reactjs.\n Dived deep into essential package managers and module bundlers for React projects.\n Understood JSX, React components, and their compositions.\n Implemented React's core features, managing state, and working with UI data.\n Mastered working with React hooks and understanding their importance.\nMastered working with Reat Router for smooth navigation and routing.\nClass based components and their lifecycles.\n Advance optimization techniques including Custom Hooks.\nImplementing Redux toolkit for state management.",
       "certificate":"React"
     }
   ],

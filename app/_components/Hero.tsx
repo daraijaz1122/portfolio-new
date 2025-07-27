@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { Github, Linkedin, FileText } from 'lucide-react';
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { Github, Linkedin, FileText } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -30,13 +30,22 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex justify-center space-x-4"
         >
-          <Link href="https://github.com/daraijaz1122" className="flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          <Link
+            href="https://github.com/daraijaz1122"
+            className="flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          >
             <Github className="mr-2" size={20} /> GitHub
           </Link>
-          <Link href="https://www.linkedin.com/in/aijaz-ahmadd" className="flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          <Link
+            href="https://www.linkedin.com/in/aijaz-ahmadd"
+            className="flex justify-center items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          >
             <Linkedin className="mr-2" size={20} /> LinkedIn
           </Link>
-          <Link href="/resume-aijaaz25.pdf" className="flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          <Link
+            href="/resume-aijaaz25.pdf"
+            className="flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          >
             <FileText className="mr-2" size={20} /> Resume
           </Link>
         </motion.div>
