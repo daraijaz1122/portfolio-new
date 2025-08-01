@@ -21,6 +21,12 @@
       "github_link": "https://github.com/daraijaz1122/ExpensePro",
       "live_demo":"https://expense-pro-theta.vercel.app/",
       "skills":"Nextjs,Reactjs,DrizzleORM,Postgresql,TailwindCSS,shadcn"
+    },{
+       "title": "Study-Hub-Library",
+      "description": "freelance project,built website for study hub library kupwara",
+      "github_link": "https://github.com/daraijaz1122/study-hub-library",
+      "live_demo":"https://study-hub-library.vercel.app/",
+      "skills":"Nextjs ,Typescript,Tailwindcss,shadcn "
     },
     {
       "title": "Netflix-GPT",
