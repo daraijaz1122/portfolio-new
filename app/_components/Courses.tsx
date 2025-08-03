@@ -34,7 +34,7 @@ export default function Courses() {
                 <CourseDescription
                   description={course.description}
                   courseId={course.courseId}
-                  key={course.courseId} // Unique identifier
+                  key={course.courseId}
                 />
               </div>
 
