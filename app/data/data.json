@@ -20,26 +20,38 @@
       "description": "A full-stack expense tracker web app.Where you can manage you budgets and expenses",
       "github_link": "https://github.com/daraijaz1122/ExpensePro",
       "live_demo":"https://expense-pro-theta.vercel.app/",
-      "skills":"Nextjs,Reactjs,DrizzleORM,Postgresql,TailwindCSS,shadcn"
-    },{
+      "skills":"Nextjs,Reactjs,DrizzleORM,Postgresql,TailwindCSS,shadcn",
+      "thumbnail":"/expensepro.png"
+    }, {
+      "title": "PixelPulse",
+      "description": "Fullstack AI based image editing web app",
+      "github_link": "https://github.com/daraijaz1122/pixelPulse",
+      "live_demo":"https://pixel-pulse-sandy.vercel.app/",
+      "skills":"Nextjs,Convex,ImageKit,TailwindCSS,shadcn,Clerk",
+      "thumbnail":"/pixel.png"
+    },
+    {
        "title": "Study-Hub-Library",
-      "description": "freelance project,built website for study hub library kupwara",
+      "description": "freelance project, website for study hub library kupwara",
       "github_link": "https://github.com/daraijaz1122/study-hub-library",
       "live_demo":"https://study-hub-library.vercel.app/",
-      "skills":"Nextjs ,Typescript,Tailwindcss,shadcn "
+      "skills":"Nextjs ,Typescript,Tailwindcss,shadcn ",
+      "thumbnail":"/studyhub.png"
     },
     {
       "title": "Netflix-GPT",
       "description": "A Netflix frontend clone , integrated with GPT api's for movie recommendation ",
       "github_link": "https://github.com/daraijaz1122/Netflix-GPT",
       "live_demo":"https://netflix-gpt-sandy-xi.vercel.app/",
-      "skills":"Reactjs,TailwindCSS,React-Redux,Firebase "
+      "skills":"Reactjs,TailwindCSS,React-Redux,Firebase ",
+      "thumbnail":"/netflix.png"
     },{
        "title": "Medium-clone",
       "description": "A fullstack Blog website where you can write blogs",
       "github_link": "https://github.com/daraijaz1122/medium-clone",
       "live_demo":"https://medium-clone-phi-seven.vercel.app/",
-      "skills":"Reactjs , Typescript,Postgresql,Honojs,PrismaORM,TailwindCSS,Cloudfare "
+      "skills":"Reactjs , Typescript,Postgresql,Honojs,PrismaORM,TailwindCSS,Cloudfare ",
+      "thumbnail":"/medium.png"
     }
   ],
   "experience": [
@@ -55,7 +67,7 @@
     {
       "courseId":"1",
       "title":"100xDevs, 0-100 Fullstack Web Development",
-      "description":"Developing backend applications using Node.js, TypeScript, Hono.js, MongoDB, and PostgreSQL.\nProficient in working with Object-Relational Mapping (ORM) tools like Prisma and TypeORM.\nDeploying backend services to serverless functions.\nDeploying frontend applications to AWS,vercel,firebase etc.\nBuilding full-stack web applications using Next.js.\nImplementing authentication mechanisms using JWTs, NextAuth,clerk, and cookies.\n Utilizing various bundlers, including Vite, Parcel etc.\nManaging monorepos effectively with Turborepo.\nProficient in containerizing applications with Docker.",
+      "description":"Developing backend applications using Node.js, TypeScript, Hono.js, MongoDB, and PostgreSQL.\nProficient in working with Object-Relational Mapping (ORM) tools like Prisma and TypeORM.\nDeploying backend services to serverless functions.\nDeploying frontend applications to AWS,vercel,firebase etc.\nBuilding full-stack web applications using Next.js.\nImplementing authentication mechanisms using JWTs, NextAuth,clerk, and cookies.\nManaging monorepos effectively with Turborepo.\nProficient in containerizing applications with Docker.",
       "certificate":"Fullstack"
     },{
       "courseId":"2",

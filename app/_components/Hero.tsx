@@ -22,7 +22,10 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl mb-8"
         >
-          A passionate Full Stack Developer creating innovative web solutions
+          Experienced Full-Stack Developer with a strong foundation in building
+          and deploying scalable web applications. Proven ability to develop
+          robust backend systems and intuitive frontends while leveraging modern
+          development tools, best practices, and cloud platforms.
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -43,7 +46,7 @@ export default function Hero() {
             <Linkedin className="mr-2" size={20} /> LinkedIn
           </Link>
           <Link
-            href="/resume-aijaaz25.pdf"
+            href="/resume-aijaz.pdf"
             className="flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
           >
             <FileText className="mr-2" size={20} /> Resume

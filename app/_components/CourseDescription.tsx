@@ -15,7 +15,7 @@ export const CourseDescription = ({
       <div
         className={`transition-all duration-300 ease-in-out overflow-hidden `}
       >
-        <ul className="list-disc list-inside space-y-1 mb-4">
+        <ul className="list-disc list-inside space-y-1 ">
           {description.split("\n").map((line, i) => (
             <li
               className="text-lg text-gray-700 dark:text-gray-300"

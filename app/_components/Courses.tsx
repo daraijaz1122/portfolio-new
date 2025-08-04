@@ -30,7 +30,7 @@ export default function Courses() {
                 {course.title}
               </h3>
 
-              <div className="flex-grow mb-4">
+              <div className="flex-grow">
                 <CourseDescription
                   description={course.description}
                   courseId={course.courseId}

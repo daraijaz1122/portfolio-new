@@ -28,15 +28,7 @@ export default function Projects() {
               className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden"
             >
               <Image
-                src={
-                  project.title === "ExpensePro"
-                    ? "/expensepro.png"
-                    : project.title === "Netflix-GPT"
-                    ? "/netflix.png"
-                    : project.title === "Study-Hub-Library"
-                    ? "/studyhub.png"
-                    : "/medium.png"
-                }
+                src={project.thumbnail}
                 alt={project.title}
                 width={400}
                 height={200}
